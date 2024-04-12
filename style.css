@@ -1,3 +1,42 @@
+/* ---- Default CSS -- */
+html {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+/* ---- End of Default CSS -- */
+
+/* --- Main Body Container -- */
+
+/* --- Grid 30-70 --- */
+.grid30-70 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1em;
+}
+.grid30-70 > div{
+    background-color: aquamarine;
+    border: #000 1px solid;
+    padding: 1em;
+}
+.gridFractions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(70px, auto);
+    grid-gap: 1em;
+    
+}
+.gridFractions > div{
+    background-color: aquamarine;
+    border: #000 1px solid;
+    padding: 1em;
+}
+/* --- end of Grid 30-70 --- */
+
+/* --- end of Main Body Container -- */
+
+
 h1 {
     color: red;
     font-size:xx-large;

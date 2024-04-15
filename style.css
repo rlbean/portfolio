@@ -32,6 +32,33 @@ html {
     border: #000 1px solid;
     padding: 1em;
 }
+
+
+.box1 {
+    /*align-self: start;
+    justify-self: start;*/
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+.box2 {
+    /*align-self: end;
+    justify-self: end;*/
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.box3 {
+    /*align-self:center;
+    justify-self: center;*/
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.box4 {
+    grid-column: 1;
+    grid-row: 2/4;
+    
+}
 /* --- end of Grid 30-70 --- */
 
 /* --- end of Main Body Container -- */

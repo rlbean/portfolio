@@ -42,9 +42,9 @@ nav > div {
 .search {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    align-items: center;
+    align-items: center; /*horizontal align */
+    justify-items: start; /* align left */
 }
-
 .search input {
     font-size: 24px;
     padding-left: 10px;
@@ -54,7 +54,7 @@ nav > div {
 .hamburger {
     font-size: 48px;
     color: crimson;
-    justify-self: end;
+    justify-self: end; /*align right */
     padding-right: 10px;
 }
 
